@@ -2,11 +2,17 @@ body{
     background-color: black;
     background-image: url(img/pexels-pixabay-159400.png);
     background-size: 100%;
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;   
 }
 
+@font-face{
+    font-family: Myriad_Pro_Light;
+    src: url(/font/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: Myriad_Pro_Regular;
+    src: url(/font/MYRIADPRO-REGULAR.OTF);
+}
 
 .logo{
     position:absolute;
@@ -73,7 +79,7 @@ body{
     animation-delay: 3s;
     animation-duration: 1s;
     z-index: 5;
-    opacity: 0;
+    opacity: 1;
     animation-fill-mode: forwards;
     
     
@@ -86,9 +92,7 @@ body{
     100%{opacity: 1;}
 }
 
-.letraBienvenido{
-    text-align: center;
-}
+
 
 .karioMedia{
     width: 7vw;
@@ -111,11 +115,13 @@ body{
 .letraBienvenido{
     text-align: center;
     font-size: 1.8vw;
+    font-family: Myriad_Pro_Regular;
 }
 
 .indicacion{
     margin-top: 0vw;
     font-size: 1vw;
+    font-family: Myriad_Pro_Light;
 }
 
 .karioMedia{
@@ -127,6 +133,8 @@ body{
     margin-left: 2vw;
     margin-bottom: 0.5vw;
     font-size: 1.4vw;
+    font-family: Myriad_Pro_Light;
+    opacity: 50%;
 }
 
 .usuario{
@@ -134,6 +142,7 @@ body{
     height: 2vw;
     border-radius: 8vw;
     padding-left: 2vw;
+    opacity: 50%;
 }
 
 .letraContrasena{
@@ -141,6 +150,8 @@ body{
     margin-left: 2vw;
     margin-bottom: 0.5vw;
     font-size: 1.4vw;
+    font-family: Myriad_Pro_Light;
+    opacity: 50%;
 }
 
 .contrasena{
@@ -148,6 +159,7 @@ body{
     height: 2vw;
     border-radius: 8vw;
     padding-left: 2vw;
+    opacity: 50%;
 }
 
 .botonPanel{
@@ -166,8 +178,10 @@ body{
     color: white;
     font-size: 1vw;
     text-decoration: none;
+    font-family: Myriad_Pro_Light;
 }
 
 .problemas{
     font-size: 0.8vw;
+    font-family: Myriad_Pro_Light;
 }
