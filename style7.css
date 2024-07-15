@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    margin: auto;
+}
+
+@font-face{
+    font-family: Myriad_Pro_Light;
+    src: url(/font/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: Myriad_Pro_Regular;
+    src: url(/font/MYRIADPRO-REGULAR.OTF);
+}
+
+
+.barra{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vw;
+}
