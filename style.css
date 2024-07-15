@@ -3,16 +3,20 @@ body{
     background-image: url(img/pexels-pixabay-159400.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    
+    
 }
 
 
 .logo{
-    display: flex;
-    justify-content: center;
-    margin-top: 15%;
+    position:absolute;
+    
+    margin-top: 25vw;
+    margin-left: 45vw;
     animation-name: kairo;
     animation-duration: 3s;
-    visibility: visible;
+
+    
 }
 
 .karioLogo{
@@ -20,12 +24,13 @@ body{
 }
 
 @keyframes kairo{
-    0%{visibility: visible;}
-    50%{visibility: hidden;}
-    100%{visibility: hidden;}
+    0%{opacity: 0;}
+    33%{opacity: 1;}
+    66%{opacity: 0;}
+    100%{opacity: 1;} 
 }
 
-.contenedor1{
+/*.contenedor1{
  animation: fadeOut 2s;
  animation-fill-mode: forwards;
 }
@@ -38,14 +43,14 @@ body{
 
 }
 
-/*.contenedor1:target{
+.contenedor1:target{
     animation: fadeOut 2s;
 }
 
 .contenedor2:target{
     animation: fadeIn 2s;
 
-}*/
+}
 
 @keyframes fadeOut{
     from {opacity: 1;}
@@ -55,20 +60,30 @@ body{
 @keyframes fadeIn{
     from {opacity: 0;}
     to {opacity: 1;}
-}
+}*/
 
 
 .cuadroBlanco{
+    position: absolute;
     background-color: white;
     width: 45vw;
     height: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 3;
+    margin-left: 30vw;
+    animation-name: cuadro;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    z-index: 5;
+    opacity: 0;
+    animation-fill-mode: forwards;
     
     
+    
+}
+
+@keyframes cuadro{
+    0%{opacity: 0;}
+
+    100%{opacity: 1;}
 }
 
 .letraBienvenido{
@@ -82,11 +97,11 @@ body{
 .cuadroBlanco{
     background-color: white;
     width: 45vw;
-    height: 35vw;
+    height: 36vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 3vw;
     padding-top: 2vw;
     margin-top: 10vw;
     
@@ -111,31 +126,35 @@ body{
     width: 1vw;
     margin-left: 2vw;
     margin-bottom: 0.5vw;
+    font-size: 1.4vw;
 }
 
 .usuario{
-    width: 30vw;
+    width: 28vw;
     height: 2vw;
-    border-radius: 50px;
+    border-radius: 8vw;
+    padding-left: 2vw;
 }
 
 .letraContrasena{
     width: 1vw;
     margin-left: 2vw;
     margin-bottom: 0.5vw;
+    font-size: 1.4vw;
 }
 
 .contrasena{
-    width: 30vw;
+    width: 28vw;
     height: 2vw;
-    border-radius: 50px;
+    border-radius: 8vw;
+    padding-left: 2vw;
 }
 
 .botonPanel{
     background-color: #ff7221;
     border: none;
     margin-top: 1vw;
-    border-radius: 50px;
+    border-radius: 3vw;
     width: 15vw;
     height: 3vw;
     display: flex;
@@ -146,6 +165,7 @@ body{
 .letraIngresar{
     color: white;
     font-size: 1vw;
+    text-decoration: none;
 }
 
 .problemas{
