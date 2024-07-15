@@ -21,6 +21,7 @@ body{
     margin-left: 45vw;
     animation-name: kairo;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
 
     
 }
