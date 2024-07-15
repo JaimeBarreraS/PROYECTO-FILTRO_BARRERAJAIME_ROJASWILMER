@@ -1,0 +1,62 @@
+@font-face{
+    font-family: Myriad_Pro_Light;
+    src: url(/font/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: Myriad_Pro_Regular;
+    src: url(/font/MYRIADPRO-REGULAR.OTF);
+}
+body{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+.fondo{
+    position: absolute;
+    width: 100%;
+}
+.usuario{
+    position: absolute;
+    background: white;
+    width: 45vw;
+    height: 28vw;
+    top: 18vw;
+    left: 29vw;
+    border-radius: 3vw;
+}
+.kario{
+    position: absolute;
+    top: 1vw;
+    left: 20vw;
+}
+.letter1{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    top: 8vw;
+    left: 15vw;
+    font-size: 2vw;
+}
+.img-usuario{
+    position: absolute;
+    top: 13.5vw;
+    left: 20vw;
+}
+.letter2{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    top: 19vw;
+    left: 12vw;
+    font-size: 2vw;
+}
+.letter3{
+    position: absolute;
+    font-family: Myriad_Pro_Light;
+    top: 23vw;
+    left: 18vw;
+    font-size: 1.3vw;
+}
+
