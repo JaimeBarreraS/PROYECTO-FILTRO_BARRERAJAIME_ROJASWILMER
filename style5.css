@@ -32,6 +32,8 @@ body{
     position: absolute;
     top: 1vw;
     left: 20vw;
+    width: 7vw;
+    height: 7vw;
 }
 .letter1{
     position: absolute;
@@ -44,6 +46,8 @@ body{
     position: absolute;
     top: 13.5vw;
     left: 20vw;
+    width: 7vw;
+    height: 7vw;
 }
 .letter2{
     position: absolute;
