@@ -24,6 +24,11 @@ body{
     width: 100%;
     height: 5vw;
 }
+.linea{
+    width: 100%;
+    height: 0.2vw;
+    background-color: #FC6F1E;
+}
 
 .barra a{
     font-family: Myriad_Pro_Regular;
@@ -66,3 +71,224 @@ body{
     
 }
 
+.karioLogo img{
+    margin-top: 10vw;
+    /*margin-left: -10vw;*/
+    opacity: 50%;
+    width: 10vw;
+    height: 10vw;
+
+
+}
+
+
+.caja{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+
+}
+
+.letraIndicadores{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.inputIndicadores{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 3vw;
+    padding-left: 1vw;
+}
+
+.indicadores{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0vw;
+    color: white;
+}
+
+.letraDescripcion{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+    font-size: 2vw;
+}
+
+.inputDescripcion{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 3vw;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+
+input[type=radio] {
+    width: 2vw; 
+    height: 2vw;
+    margin-bottom: 1.5vw;
+}
+
+.letraCategoria{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 1vw;
+    color: white;
+    font-size: 2vw;
+    
+
+}
+
+option{
+    color: #000;
+}
+
+.categoria{
+  margin-left: 1vw;
+}
+
+
+.letraBajo{
+    font-family: Myriad_Pro_Regular;
+    font-size: 2vw;
+    color: white;
+
+}
+
+
+.letraMedio{
+    font-family: Myriad_Pro_Regular;
+    font-size: 2vw;
+    color: white;
+}
+
+.letraAlto{
+    font-family: Myriad_Pro_Regular;
+    font-size: 2vw;
+    color: white;
+}
+
+.fechaInicio{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.inputFI{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    background-image: url(img/calendarioT.svg);
+    margin-right: 1vw;
+    font-size: 2vw;
+}
+
+
+.fechaTerminacion{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.inputFT{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 29vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    margin-bottom: 2vw;
+}
+
+.letraFormula{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.selectFormula{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+
+.letraFrecuencia{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.selectFrecuencia{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+    padding-left: 1vw;
+
+}
+
+.letraArea{
+    font-family: Myriad_Pro_Regular;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.selectArea{
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 0.5vw;
+    width: 30vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    
+    background-color: #FC6F1E;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 3vw;
+    border: none;
+    
+}
+
+.letraAñadir{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    
+}

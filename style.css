@@ -79,7 +79,6 @@ body{
     animation-name: cuadro;
     animation-delay: 3s;
     animation-duration: 1s;
-    z-index: 5;
     opacity: 0;
     animation-fill-mode: forwards;
     
