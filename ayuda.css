@@ -126,3 +126,125 @@ body{
     height: 0.18vw;
     background: #FC6F1E;
 }
+.kari-logo{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    opacity: 50%;
+    top:20vw ;
+    left: 45vw;
+}
+.text-ayuda{
+    position: absolute;
+    color: white;
+    font-size: 2.2vw;
+    top: 4vw ;
+    left: 46.4vw;
+    font-family: Myriad_Pro_Regular;
+}
+.text-modulo{
+    position: absolute;
+    color: white;
+    font-size: 1.1vw;
+    font-family: Myriad_Pro_Light;
+    top: 9vw ;
+    left: 29.5vw;
+    text-align: center;
+}
+.cuadro1{
+    position: absolute;
+    top: 16vw;
+    left: 14vw;
+    background: white;
+    width: 25vw;
+    height: 15vw;
+    border-radius: 2vw;
+    border-color: #FC6F1E;
+    border-style: solid;
+    cursor: pointer;
+}
+.cuadro2{
+    position: absolute;
+    top: 16vw;
+    background-color: white;
+    position: absolute;
+    width: 25vw;
+    height: 15vw;
+    left: 61vw;
+    border-radius: 2vw;
+    border-color: #FC6F1E;
+    border-style: solid;
+    cursor: pointer;
+}
+.cuadro3{
+    position: absolute;
+    top: 35vw;
+    background-color: white;
+    position: absolute;
+    width: 25vw;
+    height: 15vw;
+    left: 37.6vw;
+    border-radius: 2vw;
+    border-color: #FC6F1E;
+    border-style: solid;
+    cursor: pointer;
+}
+.imagen-cuadro1{
+    position: absolute;
+    top: 0.4vw ;
+    left: 10.5vw;
+    width: 4vw;
+    height: 4vw;
+}
+.text-cuadro1{
+    position: absolute;
+    top: 3vw ;
+    left: 7.5vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 1.6vw;
+    color: #FC6F1E;
+}
+.text-cuadro2{
+    position: absolute;
+    top: 3vw ;
+    left: 10.65vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 1.6vw;
+    color: #FC6F1E;
+}
+.text-cuadro3{
+    position: absolute;
+    top: 3vw ;
+    left: 8.7vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 1.6vw;
+    color: #FC6F1E;
+}
+.text-cuadro11{
+    position: absolute;
+    top: 6.5vw ;
+    left: 2.8vw;
+    font-size: 1.1vw;
+    font-family: Myriad_Pro_Light;
+    text-align: center;
+    width: 20vw;
+}
+.text-cuadro22{
+    position: absolute;
+    top: 6.5vw ;
+    left: 2.8vw;
+    font-size: 1.1vw;
+    font-family: Myriad_Pro_Light;
+    text-align: center;
+    width: 20vw;
+}
+.text-cuadro33{
+    position: absolute;
+    top: 6.5vw ;
+    left: 2.8vw;
+    font-size: 1.1vw;
+    font-family: Myriad_Pro_Light;
+    text-align: center;
+    width: 20vw;
+}
+
