@@ -25,6 +25,7 @@ body{
     font-family: Myriad_Pro_Regular;
     font-weight: bolder;
 }
+
 .karioBarra{
     position: absolute;
     width: 2vw;
@@ -124,18 +125,6 @@ body{
     width: 100%;
     height: 0.18vw;
     background: rgb(160, 160, 160);
-}
-.bar{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    left: 1.2vw;
-    height: 19vw;
-    width: 19vw;
-    top: 7vw;
-    border-radius: 10vw;
-    border-color: brown;
-    border-width:  1vw;
-    border-style: solid;
 }
 
 .panel{
