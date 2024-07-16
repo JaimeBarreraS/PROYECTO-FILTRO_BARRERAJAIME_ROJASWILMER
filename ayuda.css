@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(0, 0, 0, 0.893);
+    background-image: url(img/pexels-pixabay-159400.png);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    margin: auto; 
+}
+
+@font-face{
+    font-family: Myriad_Pro_Light;
+    src: url(/font/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: Myriad_Pro_Regular;
+    src: url(/font/MYRIADPRO-REGULAR.OTF);
+}
+
+
+.barra{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vw;
+    font-family: Myriad_Pro_Regular;
+    font-weight: bolder;
+}
+.karioBarra{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 48vw;
+}
+.añadir-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 10vw;
+}
+.añadir{
+    position: absolute;
+    color: black;
+    left: 12vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Refrescar-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 22vw;
+}
+.Refrescar{
+    position: absolute;
+    color: black;
+    left: 24vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Eliminar-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 34vw;
+}
+.Eliminar{
+    position: absolute;
+    color: black;
+    left: 36vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Reportar-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 62vw;
+}
+.Reportar{
+    position: absolute;
+    color: black;
+    left: 64vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Ayuda-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 76vw;
+}
+.Ayuda{
+    position: absolute;
+    color: black;
+    left: 78vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.opciones{
+    position: absolute;
+    width: 1.1vw;
+    height: 1.1vw;
+    right: 8vw;
+}
+.notificaciones{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    right: 6vw;
+}
+.usuario{
+    position: absolute;
+    width: 3.3vw;
+    height: 3.3vw;
+    right: 1vw;
+}
+.linea{
+    position: absolute;
+    width: 100%;
+    height: 0.18vw;
+    background: #FC6F1E;
+}
