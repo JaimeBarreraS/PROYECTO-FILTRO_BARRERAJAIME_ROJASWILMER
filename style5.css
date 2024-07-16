@@ -1,3 +1,9 @@
+@keyframes pagina1{
+    100% {opacity: 1;}
+}
+@keyframes pagina2{
+    0% {opacity: 0;}
+}
 @font-face{
     font-family: Myriad_Pro_Light;
     src: url(/font/MyriadPro-Light.otf);
@@ -6,20 +12,20 @@
     font-family: Myriad_Pro_Regular;
     src: url(/font/MYRIADPRO-REGULAR.OTF);
 }
+
 body{
-    background: black;
     width: 100vw;
     height: 100vh;
+    margin: auto;
 }
 .contenedor{
+    background: black;
+    background-image: url(/img/pexels-pixabay-159400.png);
     width: 100%;
-    height: 100%;
+    height: 110%;
+    opacity: 1;
 }
-.fondo{
-    position: absolute;
-    width: 100%;
-}
-.usuario{
+.usuario1{
     position: absolute;
     background: white;
     width: 45vw;
@@ -27,6 +33,9 @@ body{
     top: 18vw;
     left: 29vw;
     border-radius: 3vw;
+    opacity: 0;
+    animation-name: pagina1;
+    animation-duration: 2s;
 }
 .kario{
     position: absolute;
@@ -63,4 +72,435 @@ body{
     left: 18vw;
     font-size: 1.3vw;
 }
+/*####### PAGINA DOS #######*/
+.logo{
+    display: flex;
+    justify-content: center;
+    animation-name: pagina1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    opacity: 0;
+}
 
+.karioLogo{
+    top: 25vw;
+    position: absolute;
+    width: 15vw;
+}
+/*####### PAGINA TRES #######*/
+.contenedor2{
+    background-color: white;
+    opacity: 0;
+}
+.barra{
+    position: absolute;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vw;
+    font-family: Myriad_Pro_Regular;
+    font-weight: bolder;
+    top: 0.1vw;
+    left: 0.1vw;
+}
+
+.karioBarra{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 48vw;
+}
+.añadir-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 10vw;
+}
+.añadir{
+    position: absolute;
+    color: black;
+    left: 12vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Refrescar-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 22vw;
+}
+.Refrescar{
+    position: absolute;
+    color: black;
+    left: 24vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Eliminar-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 34vw;
+}
+.Eliminar{
+    position: absolute;
+    color: black;
+    left: 36vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Reportar-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 62vw;
+}
+.Reportar{
+    position: absolute;
+    color: black;
+    left: 64vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.Ayuda-img{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 1.8vw;
+    left: 76vw;
+}
+.Ayuda{
+    position: absolute;
+    color: black;
+    left: 78vw;
+    top: 0.8vw;
+    font-size: 1.1vw;
+}
+.opciones{
+    position: absolute;
+    width: 1.1vw;
+    height: 1.1vw;
+    right: 8vw;
+}
+.notificaciones{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    right: 6vw;
+}
+.usuario{
+    position: absolute;
+    width: 3.3vw;
+    height: 3.3vw;
+    left: 95vw;
+    top: 0.8vw;
+}
+.linea{
+    position: absolute;
+    width: 100%;
+    height: 0.18vw;
+    background: rgb(160, 160, 160);
+    top: 5vw;
+    left: 0.1vw;
+}
+.panel-indicadores{
+    background-color: white;
+}
+
+.panel{
+    position: absolute;
+    top: 4.8vw;
+    left: 40vw;
+    font-size: 2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.aqui{
+    position: absolute;
+    top: 10vw;
+    left: 28vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Light;
+}
+.Indicador{
+    position: absolute;
+    top: 13.5vw;
+    left: 5.5vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.Descripcion{
+    position: absolute;
+    top: 13.5vw;
+    left: 19vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.Categoria{
+    position: absolute;
+    top: 13.5vw;
+    left: 32vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.Fecha-ini{
+    position: absolute;
+    top: 13.5vw;
+    left: 39.5vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.Fecha-ter{
+    position: absolute;
+    top: 13.5vw;
+    left: 48.5vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.for{
+    position: absolute;
+    top: 13.5vw;
+    left: 62vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.Frecuencia{
+    position: absolute;
+    top: 13.5vw;
+    left: 68vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.Cumplimiento{
+    position: absolute;
+    top: 13.5vw;
+    left: 76vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.area{
+    position: absolute;
+    top: 13.5vw;
+    left: 87vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+}
+.border1{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 17vw;
+    border-radius: 1.7vw;
+    border-color: rgb(160, 160, 160);
+    border-style: solid;
+}   
+.border2{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 22vw;
+    border-radius: 1.7vw;
+    border-color: rgb(160, 160, 160);
+    border-style: solid;
+}
+.border3{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 27vw;
+    border-radius: 1.7vw;
+    border-color: rgb(160, 160, 160);
+    border-style: solid;
+}
+.border4{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 32vw;
+    border-radius: 1.7vw;
+    border-color: rgb(160, 160, 160);
+    border-style: solid;
+}
+.border5{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 37vw;
+    border-radius: 1.7vw;
+    border-color: rgb(160, 160, 160);
+    border-style: solid;
+}
+.border6{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 42vw;
+    border-radius: 1.7vw;
+    border-color: rgb(160, 160, 160);
+    border-style: solid;
+}
+svg{
+    width: 9vw;
+    height: 9vw;
+}
+circle{
+    fill: none;
+    stroke-width: 0.3vw;
+    stroke-dasharray: 92 100;
+    transform: rotate(-73deg);
+    transform-origin: 50%;
+}
+.c1{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;
+}
+.c2{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;
+}
+.c3{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #3BDB48
+}
+.c4{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;
+}
+.c5{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #3BDB48
+}
+.c6{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #f9af04
+}
+.porcentaje{
+    position: absolute;
+    top: 0.5vw;
+    left: 74vw;
+    font-size: 0.9vw;
+    font-family: Myriad_Pro_Light;
+}
+.text-indicador{
+    position: absolute;
+    top: 0.4vw;
+    left: 1.2vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-des{
+    position: absolute;
+    top: 0.4vw;
+    left: 14.6vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-cat{
+    position: absolute;
+    top: 0.4vw;
+    left: 28.7vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-fi{
+    position: absolute;
+    top: 0.4vw;
+    left: 36.5vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-ft{
+    position: absolute;
+    top: 0.4vw;
+    left: 47vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-for{
+    position: absolute;
+    top: 0.4vw;
+    left: 57.6vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-fre{
+    position: absolute;
+    top: 0.4vw;
+    left: 65.3vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-area{
+    position: absolute;
+    top: 0.4vw;
+    left: 81.5vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.menu{
+    position: absolute;
+    top: 1vw;
+    left: 88.7vw;
+    width: 2vw;
+    height: 2vw;
+}
+.boton{
+    background: #FC6F1E;
+    position: absolute;
+    top: 48.5vw;
+    left: 41vw;
+    width: 14vw;
+    height: 3vw;
+    border-radius: 2vw;
+}
+.text-boton{
+    position: absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1vw;
+    color: white;
+    top: -0.2vw;
+    left: 3vw;
+}
