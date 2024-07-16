@@ -29,7 +29,7 @@ body{
     position: absolute;
     width: 2vw;
     height: 2vw;
-    left: 47vw;
+    left: 48vw;
 }
 .añadir-img{
     position: absolute;
@@ -78,12 +78,12 @@ body{
     width: 1.5vw;
     height: 1.5vw;
     top: 1.8vw;
-    left: 58vw;
+    left: 62vw;
 }
 .Reportar{
     position: absolute;
     color: black;
-    left: 60vw;
+    left: 64vw;
     top: 0.8vw;
     font-size: 1.1vw;
 }
@@ -92,12 +92,12 @@ body{
     width: 1.5vw;
     height: 1.5vw;
     top: 1.8vw;
-    left: 71vw;
+    left: 76vw;
 }
 .Ayuda{
     position: absolute;
     color: black;
-    left: 73vw;
+    left: 78vw;
     top: 0.8vw;
     font-size: 1.1vw;
 }
@@ -155,7 +155,7 @@ body{
 .Indicador{
     position: absolute;
     top: 13.5vw;
-    left: 5vw;
+    left: 5.5vw;
     font-size: 1.2vw;
     font-family: Myriad_Pro_Regular;
 }
@@ -221,7 +221,7 @@ body{
     height: 4vw;
     left: 4.5vw;
     top: 17vw;
-    border-radius: 1.5vw;
+    border-radius: 1.7vw;
     border-color: rgb(160, 160, 160);
     border-style: solid;
 }   
@@ -231,7 +231,7 @@ body{
     height: 4vw;
     left: 4.5vw;
     top: 22vw;
-    border-radius: 1.5vw;
+    border-radius: 1.7vw;
     border-color: rgb(160, 160, 160);
     border-style: solid;
 }
@@ -241,7 +241,7 @@ body{
     height: 4vw;
     left: 4.5vw;
     top: 27vw;
-    border-radius: 1.5vw;
+    border-radius: 1.7vw;
     border-color: rgb(160, 160, 160);
     border-style: solid;
 }
@@ -251,7 +251,7 @@ body{
     height: 4vw;
     left: 4.5vw;
     top: 32vw;
-    border-radius: 1.5vw;
+    border-radius: 1.7vw;
     border-color: rgb(160, 160, 160);
     border-style: solid;
 }
@@ -261,7 +261,7 @@ body{
     height: 4vw;
     left: 4.5vw;
     top: 37vw;
-    border-radius: 1.5vw;
+    border-radius: 1.7vw;
     border-color: rgb(160, 160, 160);
     border-style: solid;
 }
@@ -271,7 +271,7 @@ body{
     height: 4vw;
     left: 4.5vw;
     top: 42vw;
-    border-radius: 1.5vw;
+    border-radius: 1.7vw;
     border-color: rgb(160, 160, 160);
     border-style: solid;
 }
@@ -340,4 +340,92 @@ circle{
     left: 74vw;
     font-size: 0.9vw;
     font-family: Myriad_Pro_Light;
+}
+.text-indicador{
+    position: absolute;
+    top: 0.4vw;
+    left: 1.2vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-des{
+    position: absolute;
+    top: 0.4vw;
+    left: 14.6vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-cat{
+    position: absolute;
+    top: 0.4vw;
+    left: 28.7vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-fi{
+    position: absolute;
+    top: 0.4vw;
+    left: 36.5vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-ft{
+    position: absolute;
+    top: 0.4vw;
+    left: 47vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-for{
+    position: absolute;
+    top: 0.4vw;
+    left: 57.6vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-fre{
+    position: absolute;
+    top: 0.4vw;
+    left: 65.3vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-area{
+    position: absolute;
+    top: 0.4vw;
+    left: 81.5vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.menu{
+    position: absolute;
+    top: 1vw;
+    left: 88.7vw;
+    width: 2vw;
+    height: 2vw;
+}
+.boton{
+    background: #FC6F1E;
+    position: absolute;
+    top: 48.5vw;
+    left: 41vw;
+    width: 14vw;
+    height: 3vw;
+    border-radius: 2vw;
+}
+.text-boton{
+    position: absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1vw;
+    color: white;
+    top: -0.2vw;
+    left: 3vw;
 }
