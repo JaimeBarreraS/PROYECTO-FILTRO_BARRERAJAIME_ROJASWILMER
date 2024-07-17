@@ -16,18 +16,29 @@
         <!-- barra de menu -->
         <header>
             <nav class="barra">
-                <a href=""><img class="a" src="img/Group 3.svg" alt=""> Añadir</a>
-                <a href=""><img class="r" src="img/Icon open-reload.svg" alt=""> Refrescar</a>
-                <a href=""><img class="e" src="img/Icon material-delete-forever.svg" alt=""> Eliminar</a>
+                <a href="anadir.html"><img class="a" src="img/Group 3.svg" alt=""> Añadir</a>
+                <a href="anadir.html"><img class="r" src="img/Icon open-reload.svg" alt=""> Refrescar</a>
+                <a href="eliminar.html"><img class="e" src="img/Icon material-delete-forever.svg" alt=""> Eliminar</a>
                 <img class="karioBarra" src="img/kario sin kairo.svg" alt="">
-                <a href=""><img class="r2" src="img/Icon material-bug-report.svg" alt=""> Reportar</a>
-                <a href=""><img class="a2" src="img/Icon ionic-ios-help-circle.svg" alt=""> Ayuda</a>
+                <a href="reportar.html"><img class="r2" src="img/Icon material-bug-report.svg" alt=""> Reportar</a>
+                <a href="ayuda.html"><img class="a2" src="img/Icon ionic-ios-help-circle.svg" alt=""> Ayuda</a>
                 <div class="perfil">
                     <img class="opciones" src="img/Icon ionic-ios-settings.svg" alt="">
                     <img class="notificaciones" src="img/Icon material-notifications-active.svg" alt="">
-                    <label for="">
-                        <img class="fotoPerfil" src="img/pp.png" alt="">
-                    </label>
+                   
+                    <input class="per" id="per" type="checkbox">
+                    <div class="perfilFoto">
+                        <label for="per">
+                            <img class="fotoPerfil" src="img/pp.png" alt="">
+                        </label>
+                    </div>
+                    <div class="menuPerfil">
+                        <a href="perfil.html">Perfil</a>
+                        <hr>
+                        <a href="index7.html">Indicadores</a>
+                        <hr>
+                        <a href="index.html">Cerrar Sesión</a>
+                    </div>
                 </div>
 
 
@@ -36,117 +47,117 @@
 
         </header>
 
-       
+
 
         <div class="caja">
-             <!-- lado izquierdo del formulario -->
+            <!-- lado izquierdo del formulario -->
 
-        <div class="izquierdo">
-            <div class="indicadores">
-                <label for="">
-                    <p class="letraIndicadores">Indicadores</p>
-                    <input class="inputIndicadores" type="text">
-                </label>
-            </div>
-    
-            <div class="descripcion">
-                <label for="">
-                    <p class="letraDescripcion">Descripción</p>
-                    <input class="inputDescripcion" type="text">
-                </label>
-            </div>
-    
-            <div class="categoria">
-                <p class="letraCategoria">Categoría</p>
-    
-                <div class="bajo">
-                    <label class="letraBajo"  for="bajo">
-                        <input class="inputBajo" type="radio" name="check" id="bajo">
-                        Bajo 
+            <div class="izquierdo">
+                <div class="indicadores">
+                    <label for="">
+                        <p class="letraIndicadores">Indicadores</p>
+                        <input class="inputIndicadores" type="text">
                     </label>
                 </div>
-    
-                <div class="medio">
-                    <label class="letraMedio" for="">
-                        <input class="inputMedio" type="radio" name="check" id="">
-                        Medio
+
+                <div class="descripcion">
+                    <label for="">
+                        <p class="letraDescripcion">Descripción</p>
+                        <input class="inputDescripcion" type="text">
                     </label>
-    
                 </div>
-    
-                <div class="alto">
-                    <label class="letraAlto" for="">
-                        <input class="inputAlto" type="radio" name="check" id="">
-                        Alto
+
+                <div class="categoria">
+                    <p class="letraCategoria">Categoría</p>
+
+                    <div class="bajo">
+                        <label class="letraBajo" for="bajo">
+                            <input class="inputBajo" type="radio" name="check" id="bajo">
+                            Bajo
+                        </label>
+                    </div>
+
+                    <div class="medio">
+                        <label class="letraMedio" for="">
+                            <input class="inputMedio" type="radio" name="check" id="">
+                            Medio
+                        </label>
+
+                    </div>
+
+                    <div class="alto">
+                        <label class="letraAlto" for="">
+                            <input class="inputAlto" type="radio" name="check" id="">
+                            Alto
+                        </label>
+
+                    </div>
+
+
+                </div>
+                <div>
+                    <label for="">
+                        <p class="fechaInicio">Fecha de Inicio</p>
+                        <input class="inputFI" type="date">
                     </label>
-    
                 </div>
-    
-    
-            </div>
-            <div>
-                <label for="">
-                    <p class="fechaInicio">Fecha de Inicio</p>
-                    <input class="inputFI" type="date">
-                </label>
-            </div>
-    
-        </div>
 
-        <div class="karioLogo">
-            <img src="img/kario sin kairo.svg" alt="">
-        </div>
-
-        <!-- lado derecho del formulario -->
-
-        <div class="derecho">
-
-            <div>
-                <label for="">
-                    <p class="fechaTerminacion">Fecha de Terminación</p>
-                    <input class="inputFT" type="date">
-                </label>
             </div>
 
-            <div class="formula">
-                <p class="letraFormula">Formula</p>
-                <select class="selectFormula" name="" id="">
-                    <option value="">Met.Ágil</option>
-                    <option value="">Met.Fibo</option>
-                    <option value="">Met.Expo</option>
-                    <option value="">N/A</option>
-                </select>
+            <div class="karioLogo">
+                <img src="img/kario sin kairo.svg" alt="">
             </div>
 
-            <div class="frecuencia">
-                <p class="letraFrecuencia">Frecuencía</p>
-                <select class="selectFrecuencia" name="" id="">
-                    <option value="">1/4</option>
-                    <option value="">1/3</option>
-                    <option value="">1/2</option>
-                </select>
+            <!-- lado derecho del formulario -->
+
+            <div class="derecho">
+
+                <div>
+                    <label for="">
+                        <p class="fechaTerminacion">Fecha de Terminación</p>
+                        <input class="inputFT" type="date">
+                    </label>
+                </div>
+
+                <div class="formula">
+                    <p class="letraFormula">Formula</p>
+                    <select class="selectFormula" name="" id="">
+                        <option value="">Met.Ágil</option>
+                        <option value="">Met.Fibo</option>
+                        <option value="">Met.Expo</option>
+                        <option value="">N/A</option>
+                    </select>
+                </div>
+
+                <div class="frecuencia">
+                    <p class="letraFrecuencia">Frecuencía</p>
+                    <select class="selectFrecuencia" name="" id="">
+                        <option value="">1/4</option>
+                        <option value="">1/3</option>
+                        <option value="">1/2</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p class="letraArea">Área</p>
+                    <select class="selectArea" name="" id="">
+                        <option value="">Marketing</option>
+                        <option value="">Diseño</option>
+                        <option value="">Developers</option>
+                        <option value="">Gerencia</option>
+                        <option value="">Producción</option>
+                    </select>
+                </div>
+
+
             </div>
-
-            <div>
-                <p class="letraArea">Área</p>
-                <select class="selectArea" name="" id="">
-                    <option value="">Marketing</option>
-                    <option value="">Diseño</option>
-                    <option value="">Developers</option>
-                    <option value="">Gerencia</option>
-                    <option value="">Producción</option>
-                </select>
-            </div>
-
-
-        </div>
 
         </div>
         <div class="boton">
             <button><a class="letraAñadir" href="index7.html">Añadir</a></button>
         </div>
-    
-        
+
+
 
 
     </div>

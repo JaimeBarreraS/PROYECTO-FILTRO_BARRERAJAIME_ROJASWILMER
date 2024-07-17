@@ -46,11 +46,55 @@ body{
 }
 
 .perfil{
-   display: flex;
-    
+   display: flex;  
+  
    
    
 }
+ /*inicio menu*/
+
+#per{
+    display: none;
+    
+}
+
+.menuPerfil{
+    position: absolute;
+    background-color: lightgray;
+    
+    background-position: 8vw 0.5vw ;
+    border-radius: 2vw;
+    height: 0vw;
+    width: 3vw;
+    margin-top: 8vw;
+    margin-left: -5vw;
+    overflow: hidden;
+    font-size: 2vw;
+    
+}
+hr{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.menuPerfil a{
+    font-size: 2vw;
+    color: black;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+
+
+
+#per:checked ~ .menuPerfil{
+    height: 14vw;
+    width: 15vw;
+    transition: 0.2s;
+    
+    
+}
+/*final menu*/
 
 .karioBarra{
     width: 2.5vw;
@@ -68,15 +112,75 @@ body{
 
 .fotoPerfil{
     width: 4vw;
+    margin-top: 0.2vw;
     
 }
 
 .karioLogo img{
     margin-top: 10vw;
-    /*margin-left: -10vw;*/
     opacity: 50%;
     width: 10vw;
     height: 10vw;
 
 
+}
+
+.caja{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 2vw;
+}
+
+.caja p{
+    font-family: Myriad_Pro_Regular;
+    font-size: 2vw;
+    margin-bottom: 0.5vw;
+    margin-left: 1.5vw;
+    color: white;
+}
+
+.caja img{
+    width: 20vw;
+    
+}
+
+.karioLogo{
+    position: absolute;
+    margin-left: 45vw;
+    z-index: -1;
+    margin-top: 5vw;
+    opacity: 70%;
+}
+
+.caja input{
+    border-radius: 1vw;
+    width: 20vw;
+    height: 2.5vw;
+    border: 0.3vw solid #FC6F1E;
+    padding-left: 2vw;
+    margin-bottom: 3vw;
+}
+.derecho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botones button{
+    background-color: #FC6F1E;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 3vw;
+    border: none;
+}
+
+.botones a{
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
 }
