@@ -26,6 +26,54 @@ body{
     font-family: Myriad_Pro_Regular;
     font-weight: bolder;
 }
+/*menu*/
+
+#per{
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+
+.menuPerfil{
+    position: absolute;
+    background-color: lightgray;
+    background-position: 8vw 0.5vw ;
+    border-radius: 2vw;
+    height: 0vw;
+    width: 3vw;
+    top: 5.5vw;
+    right: 1vw;
+    overflow: hidden;
+    font-size: 2vw;
+    z-index: 1;
+}
+hr{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.menuPerfil a{
+    font-size: 2vw;
+    color: black;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    display: block;
+}
+
+#per:checked ~ .menuPerfil{
+    height: 14vw;
+    width: 15vw;
+    transition: 0.2s;
+}
+.fotoPerfil{
+    position: absolute;
+    top: 0.8vw;
+    width: 3.3vw;
+    height: 3.3vw;
+    right: 1vw;
+}
+/*final*/
 .karioBarra{
     position: absolute;
     width: 2vw;
@@ -114,12 +162,7 @@ body{
     height: 1vw;
     right: 6vw;
 }
-.usuario{
-    position: absolute;
-    width: 3.3vw;
-    height: 3.3vw;
-    right: 1vw;
-}
+
 .linea{
     position: absolute;
     width: 100%;
