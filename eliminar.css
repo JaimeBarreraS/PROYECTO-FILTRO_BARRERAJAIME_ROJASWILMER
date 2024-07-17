@@ -126,3 +126,371 @@ body{
     height: 0.18vw;
     background: #FC6F1E;
 }
+.kari-logo{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    opacity: 50%;
+    top:20vw ;
+    left: 45vw;
+}
+.text-eliminar{
+    position: absolute;
+    color: white;
+    font-size: 2.2vw;
+    top: 4vw ;
+    left: 45.5vw;
+    font-family: Myriad_Pro_Regular;
+}
+.text-elimina{
+    position: absolute;
+    color: white;
+    font-size: 1.1vw;
+    font-family: Myriad_Pro_Light;
+    top: 9vw ;
+    left: 32vw;
+    text-align: center;
+}
+.letraArea{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+    font-size: 1.6vw;
+    top: 12vw;
+    left: 62vw;
+}
+
+option{
+    color: #000000;
+    font-size: 1.3vw;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('./img/calendarioT.svg');
+    font-size: 2vw;
+    padding-right: 1vw;
+    cursor: pointer;
+}
+.ide::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/flecha.svg);
+    width: 1.5vw;
+    height: 1vw;
+    top: 17.2vw;
+    left: 80.5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#documento{
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 2vw;
+    width: 23vw;
+    height: 3.3vw;
+    font-size: 1.3vw;
+    top: 16vw;
+    left: 60vw;
+    padding-left: 1vw;
+    cursor: pointer;
+}
+.letra-fecha{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+    font-size: 1.6vw;
+    top: 20.9vw;
+    left: 62vw;
+}
+.cuadro-fecha{
+    position: absolute;
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 2vw;
+    width: 22vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    top: 25vw;
+    left: 60vw;
+    padding-left: 1vw;
+}
+.letra-indicador{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+    font-size: 1.6vw;
+    top: 12vw;
+    left: 18vw;
+}
+.indicador{
+    position: absolute;
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 2vw;
+    width: 22vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    top: 16vw;
+    left: 16vw;
+    padding-left: 1vw;
+}
+.letra-ini{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+    font-size: 1.6vw;
+    top: 20.9vw;
+    left: 18vw;
+}
+.cuadro-fechaini{
+    position: absolute;
+    border: 0.2vw solid #FC6F1E;
+    border-radius: 2vw;
+    width: 22vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    top: 25vw;
+    left: 16vw;
+    padding-left: 1vw;
+}
+.boton{
+    background: #FC6F1E;
+    position: absolute;
+    top: 32vw;
+    left: 45vw;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.text-boton{
+    position: absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.2vw;
+    color: white;
+    top: -0.5vw;
+    left: 3.5vw;
+}
+/*abajo################*/
+.Indicador{
+    position: absolute;
+    top: 36vw;
+    left: 5.5vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.Descripcion{
+    position: absolute;
+    top: 36vw;
+    left: 19vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.Categoria{
+    position: absolute;
+    top: 36vw;
+    left: 32vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.Fecha-ini{
+    position: absolute;
+    top: 36vw;
+    left: 39.5vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.Fecha-ter{
+    position: absolute;
+    top: 36vw;
+    left: 48.5vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.for{
+    position: absolute;
+    top: 36vw;
+    left: 62vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.Frecuencia{
+    position: absolute;
+    top: 36vw;
+    left: 68vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.Cumplimiento{
+    position: absolute;
+    top: 36vw;
+    left: 76vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.area{
+    position: absolute;
+    top: 36vw;
+    left: 87vw;
+    font-size: 1.2vw;
+    font-family: Myriad_Pro_Regular;
+    color: white;
+}
+.border1{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 39.5vw;
+    border-radius: 1.7vw;
+    border-color: red;
+    border-style: solid;
+    background: white;
+    cursor: pointer;
+}   
+.border2{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 44.5vw;
+    border-radius: 1.7vw;
+    border-color: blue;
+    border-style: solid;
+    background: white;
+    cursor: pointer;
+}
+.border3{
+    position: absolute;
+    width: 88vw;
+    height: 4vw;
+    left: 4.5vw;
+    top: 49.5vw;
+    border-radius: 1.7vw;
+    border-color: blue;
+    border-style: solid;
+    background: white;
+    cursor: pointer;
+}
+svg{
+    width: 9vw;
+    height: 9vw;
+}
+circle{
+    fill: none;
+    stroke-width: 0.3vw;
+    stroke-dasharray: 92 100;
+    transform: rotate(-73deg);
+    transform-origin: 50%;
+}
+.c1{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;
+}
+.c2{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;
+}
+.c3{
+    position: absolute;
+    top: 0.6vw;
+    left: 73.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #3BDB48
+}
+.porcentaje{
+    position: absolute;
+    top: 0.5vw;
+    left: 74vw;
+    font-size: 0.9vw;
+    font-family: Myriad_Pro_Light;
+}
+.text-indicador{
+    position: absolute;
+    top: 0.4vw;
+    left: 1.2vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-des{
+    position: absolute;
+    top: 0.4vw;
+    left: 14.6vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-cat{
+    position: absolute;
+    top: 0.4vw;
+    left: 28.7vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.text-fi{
+    position: absolute;
+    top: 0.4vw;
+    left: 36.5vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-ft{
+    position: absolute;
+    top: 0.4vw;
+    left: 47vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-for{
+    position: absolute;
+    top: 0.4vw;
+    left: 57.6vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-fre{
+    position: absolute;
+    top: 0.4vw;
+    left: 65.3vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160); 
+}
+.text-area{
+    position: absolute;
+    top: 0.4vw;
+    left: 81.5vw;
+    font-size: 1vw;
+    font-family: Myriad_Pro_Regular;
+    color: rgb(160, 160, 160);
+}
+.basura{
+    position: absolute;
+    top: 1vw;
+    left: 88.7vw;
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+}

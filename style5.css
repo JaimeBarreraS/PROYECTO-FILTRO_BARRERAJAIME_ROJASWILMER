@@ -499,10 +499,11 @@ circle{
     background: #FC6F1E;
     position: absolute;
     top: 48.5vw;
-    left: 41vw;
+    left: 42.5vw;
     width: 14vw;
     height: 3vw;
     border-radius: 2vw;
+    cursor: pointer;
 }
 .text-boton{
     position: absolute;
@@ -510,5 +511,5 @@ circle{
     font-size: 1vw;
     color: white;
     top: -0.2vw;
-    left: 3vw;
+    left: 3.5vw;
 }
