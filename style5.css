@@ -174,6 +174,9 @@ hr{
     height: 2vw;
     left: 48vw;
 }
+.karioBarra2{
+    display: none;
+}
 .añadir-img{
     position: absolute;
     width: 1.5vw;
@@ -320,6 +323,10 @@ hr{
     font-size: 1.2vw;
     font-family: Myriad_Pro_Regular;
 }
+.Fecha-ini2, .Fecha-ter2{
+    display: none;
+}
+
 .for{
     position: absolute;
     top: 13.5vw;
@@ -770,5 +777,230 @@ circle{
         margin-top: 1vw;
         display: block;
     }
-
+    .karioBarra2{
+        position: absolute;
+        display: block;
+        width: 7vw;
+        height: 7vw;
+        left: 48vw;
+        top: 4vw;
+    }
+    .panel{
+        position: absolute;
+        top: 12vw;
+        left: 25vw;
+        font-size: 6vw;
+        font-family: Myriad_Pro_Regular;
+    }
+    .aqui{
+        position: absolute;
+        top: 27vw;
+        left: 2vw;
+        font-size: 3.8vw;
+        font-family: Myriad_Pro_Light;
+        text-align: center;
+    }
+    .Indicador{
+        position: absolute;
+        top: 45vw;
+        left: 3vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+    }
+    .Descripcion{
+        display: none;
+    }
+    .Categoria{
+        display: none;
+    }
+    .Fecha-ini2{
+        position: absolute;
+        top: 45vw;
+        left: 29.5vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        display: block
+    }
+    .Fecha-ter2{
+        position: absolute;
+        top: 45vw;
+        left: 41.5vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        display: block
+    }
+    .Fecha-ini, .Fecha-ter{
+        display: none;
+    }
+    .for{
+        position: absolute;
+        top: 45vw;
+        left: 55vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+    }
+    .Frecuencia{
+        display: none;
+    }
+    .Cumplimiento{
+        position: absolute;
+        top: 45vw;
+        left: 67vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+    }
+    .area{
+        position: absolute;
+        top: 45vw;
+        left: 84.5vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+    }
+    .border1{
+        position: absolute;
+        width: 93vw;
+        height: 4vw;
+        left: 1vw;
+        top: 53vw;
+        border-radius: 1.7vw;
+        border-color: rgb(160, 160, 160);
+        border-style: solid;
+    } 
+    .border2{
+        position: absolute;
+        width: 93vw;
+        height: 4vw;
+        left: 1vw;
+        top: 60vw;
+        border-radius: 1.7vw;
+        border-color: rgb(160, 160, 160);
+        border-style: solid;
+    }
+    .border3{
+        position: absolute;
+        width: 93vw;
+        height: 4vw;
+        left: 1vw;
+        top: 67vw;
+        border-radius: 1.7vw;
+        border-color: rgb(160, 160, 160);
+        border-style: solid;
+    }
+    .border4{
+        position: absolute;
+        width: 93vw;
+        height: 4vw;
+        left: 1vw;
+        top: 74vw;
+        border-radius: 1.7vw;
+        border-color: rgb(160, 160, 160);
+        border-style: solid;
+    }
+    .border5{
+        position: absolute;
+        width: 93vw;
+        height: 4vw;
+        left: 1vw;
+        top: 81vw;
+        border-radius: 1.7vw;
+        border-color: rgb(160, 160, 160);
+        border-style: solid;
+    }
+    .border6{
+        position: absolute;
+        width: 93vw;
+        height: 4vw;
+        left: 1vw;
+        top: 88vw;
+        border-radius: 1.7vw;
+        border-color: rgb(160, 160, 160);
+        border-style: solid;
+    }
+    .menu{
+        position: absolute;
+        top: 1vw;
+        left: 94.5vw;
+        width: 2vw;
+        height: 2vw;
+    }
+    .text-indicador{
+        position: absolute;
+        top: -2vw;
+        left: 0.5vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        color: rgb(160, 160, 160);
+    }
+    .text-des{
+        display: none;
+    }
+    .text-cat{
+        display: none;
+    }
+    .text-fi{
+        position: absolute;
+        top: -2vw;
+        left: 27.8vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        color: rgb(160, 160, 160); 
+    }
+    .text-ft{
+        position: absolute;
+        top: -2vw;
+        left: 40vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        color: rgb(160, 160, 160); 
+    }
+    .text-for{
+        position: absolute;
+        top: -2vw;
+        left: 53vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        color: rgb(160, 160, 160); 
+    }
+    .text-fre{
+        display: none;
+    }
+    .text-area{
+        position: absolute;
+        top: -2vw;
+        left: 80vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        color: rgb(160, 160, 160);
+    }
+    svg{
+        display: none;
+    }
+    .porcentaje{
+        position: absolute;
+        top: -2vw;
+        left: 70vw;
+        font-size: 2.5vw;
+        font-family: Myriad_Pro_Regular;
+        color: #FC6F1E;
+        background-color: #e3e3e3;
+        border-radius: 3vw;
+    }
+    .boton{
+        background: #FC6F1E;
+        position: absolute;
+        top: 100vw;
+        left: 36vw;
+        width: 30vw;
+        height: 5vw;
+        border-radius: 3vw;
+        cursor: pointer;
+    }
+    .text-boton{
+        position: absolute;
+        font-family: Myriad_Pro_Light;
+        font-size: 2.5vw;
+        color: white;
+        top: -1.5vw;
+        left: 6vw;
+    }
 }

@@ -86,6 +86,9 @@ hr{
     height: 2vw;
     left: 48vw;
 }
+.karioBarra2{
+    display: none;
+}
 .añadir-img{
     position: absolute;
     width: 1.5vw;
@@ -756,5 +759,13 @@ circle{
         margin-left: 2vw;
         margin-top: 1vw;
         display: block;
+    }
+    .karioBarra2{
+        position: absolute;
+        display: block;
+        width: 7vw;
+        height: 7vw;
+        left: 48vw;
+        top: 4vw;
     }
 }
