@@ -92,7 +92,7 @@ body{
     width: 15vw;
 }
 /*####### PAGINA TRES #######*/
-#menu-toggle{
+#menuHambur{
     display: none;
 }
 .menu-icon{
@@ -571,13 +571,28 @@ circle{
     left: 3.5vw;
 }
 @media only screen and (max-width: 432px) {
+    .contenedor1 {
+        background-color: black;
+        background-image: url(img/pexels-pixabay-159400.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        height: 500vw;
+        margin-top: 20vw;
+    }
+
+    .logo img{
+        margin-left: 1vw;
+        margin-top: 35vw;
+        width: 40vw; 
+    }
+    
     body {
         font-size: 14px;
         margin: 0;
         padding: 0;
     }
 
-    #menu-toggle {
+    #menuHambur {
         display: none;
     }
 
@@ -624,7 +639,7 @@ circle{
         font-weight: lighter;
     }
 
-    #menu-toggle:checked ~ .contenedor2 .barra {
+    #menuHambur:checked ~ .contenedor2 .barra {
         left: 0;
     }
     .linea{
@@ -1002,5 +1017,45 @@ circle{
         color: white;
         top: -1.5vw;
         left: 6vw;
+    }
+
+    .usuario1{
+        width: 80vw;
+        height: 90vw;
+        margin-left: -20vw;
+        margin-top: 20vw;
+        
+    }
+
+    .contenedor .kario{
+        width: 20vw;
+        height: 20vw;
+        left: 30vw;
+        top: 5vw;
+    }
+
+    .contenedor .letter1{
+        font-size: 5vw;
+        top: 25vw;
+        left: 18vw;
+
+    }
+
+    .img-usuario{
+        width: 20vw;
+        height: 20vw;
+        top: 40vw;
+        left: 30vw; 
+    }
+
+    .letter2{
+        font-size: 5vw;
+        top: 60vw;
+    }
+
+    .letter3{
+        font-size: 3vw;
+        top: 70vw;
+        left: 25vw;
     }
 }

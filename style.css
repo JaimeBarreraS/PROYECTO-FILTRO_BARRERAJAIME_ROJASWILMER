@@ -185,3 +185,80 @@ body{
     font-size: 0.8vw;
     font-family: Myriad_Pro_Light;
 }
+
+@media only screen and (max-width: 768px) {
+    .contenedor1 {
+        background-color: black;
+        background-image: url(img/pexels-pixabay-159400.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        height: 500vw;
+        margin-top: 20vw;
+    }
+    
+    
+    .cuadroBlanco{
+        position: absolute;
+        background-color: white;
+        
+        width: 90vw;
+        height: 115vw;
+        margin-left: 4vw;
+         
+    }
+
+    .logo img{
+        margin-left: -15vw;
+        margin-top: 25vw;
+        width: 40vw; 
+    }
+
+    .cuadroBlanco img{
+        width: 10vw;
+    }
+
+    .cuadroBlanco .letraBienvenido{
+        font-size: 5vw;
+    }
+
+    .cuadroBlanco .indicacion{
+        font-size: 2.5vw;
+    }
+
+    .cuadroBlanco .letraUsuario, .letraContrasena{
+        font-size: 5vw;
+        position: relative;
+        left: 12vw;
+        
+    }
+
+    .cuadroBlanco .letraUsuario{
+        font-size: 5vw;
+        position: relative;
+        left: 15vw;
+        
+    }
+
+    .cuadroBlanco input{
+        width: 50vw;
+        height: 8vw;
+    }
+
+    .cuadroBlanco .botonPanel{
+        width: 35vw;
+        height: 10vw;
+        margin-top: 5vw;
+        border-radius: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .cuadroBlanco .letraIngresar{
+        font-size: 3vw;
+    }
+
+    .cuadroBlanco .problemas{
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 5vw;
+    }
+}
