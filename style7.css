@@ -25,7 +25,7 @@ body{
     font-family: Myriad_Pro_Regular;
     font-weight: bolder;
 }
-#menu-toggle{
+#menuHambur{
     display: none;
 }
 .menu-icon{
@@ -490,7 +490,12 @@ circle{
         background: white;
         z-index: 1;
     }
+<<<<<<< HEAD
     #menu-toggle {
+=======
+
+    #menuHambur {
+>>>>>>> 2186010282b3fd6af6d3f1b40cc5a6fab17aa2af
         display: none;
     }
 
@@ -532,7 +537,7 @@ circle{
         font-weight: lighter;
     }
 
-    #menu-toggle:checked ~ .contenedor .barra {
+    #menuHambur:checked ~ .contenedor .barra {
         left: 0;
     }
     .linea{

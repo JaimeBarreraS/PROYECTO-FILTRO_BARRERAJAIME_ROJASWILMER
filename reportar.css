@@ -26,7 +26,7 @@ body{
     font-family: Myriad_Pro_Regular;
     font-weight: bolder;
 }
-#menu-toggle{
+#menuHambur{
     display: none;
 }
 .menu-icon{
@@ -968,7 +968,7 @@ option{
         top: 0.1vw;
         background: white;
     }
-    #menu-toggle {
+    #menuHambur {
         display: none;
     }
 
@@ -1010,7 +1010,7 @@ option{
         font-weight: lighter;
     }
 
-    #menu-toggle:checked ~ .contenedor .barra {
+    #menuHambur:checked ~ .contenedor .barra {
         left: 0;
     }
     .linea{
