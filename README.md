@@ -1,23 +1,23 @@
 
 # Kario Media
 
-Aplicativo Web que pueda mostrar el panel de gestionamiento de proyectos y sus módulos necesarios para la empresa “Kario Media”,
- la cual realiza licitaciones públicas y privadas de varios nichos de negocio.
+## Descripción general
 
-## Descripción
+Kario Media es una aplicación web con panel de gestión de proyectos y módulos integrados, diseñada para facilitar licitaciones públicas y privadas en diversos nichos de negocio.
+
+## Funcionalidades principales
 
 La página web consta de siete secciones principales:
 
-1. **Indicadores**: Incluye un formulario para que los usuarios verifiquen su estado en el programa. **falta**
-2. **Añadir**: Añade los indicadores nuevos del equipo de trabajo.
-3. **Refrescar**: Actualiza la Pagina actual.
-4. **Eliminar**: Elimina un indicador seleccionado.
-5. **Reporte**: Reportar los problemas con la pagina (Nombre Reporte, Area y descripion del reporte).
-6. **Ayuda**: una seccion de ayuda para (administración, Inicio y Comunidad).
-7. **Perfil**: Una sección destinada para modificar el perfil del usuario y cerrar sesión.
+1. **Indicadores**: Verificación del estado del usuario en el programa.
+2. **Añadir**: Incorporación de nuevos indicadores para el equipo de trabajo.
+3. **Refrescar**: Actualización de la página actual.
+4. **Eliminar**: Supresión de indicadores seleccionados.
+5. **Reporte**: Sistema de notificación de incidencias (Nombre, Área, Descripción).
+6. **Ayuda**: Sección de soporte (Administración, Inicio, Comunidad).
+7. **Perfil**: Gestión del perfil de usuario y cierre de sesión.
 
-
-La página incluye un encabezado fijo con el logotipo de KARIO MEDIA y una barra de navegación que permite acceder a las diferentes secciones.
+La interfaz incluye un encabezado fijo con el logotipo corporativo y una barra de navegación para acceso a las distintas secciones.
 
 ## Tecnologías utilizadas
 
@@ -27,13 +27,13 @@ La página incluye un encabezado fijo con el logotipo de KARIO MEDIA y una barra
 
 ## Estructura del proyecto
 
-![alt text](proyecto-1.png)
+![Estructura Proyecto](<Estructura Proyecto.png>)
 
-- La carpeta `font/` contiene las fuentes personalizadas utilizadas en el proyecto.
-- La carpeta `image/` contiene las imágenes utilizadas en la página web.
-- Los archivos `.html` es el archivo principal de la página web.
-- Los archivos `.css` contiene los estilos CSS para darle formato a la página web.
-- El archivo `README.md` es este archivo que proporciona información sobre el proyecto.
+- La carpeta `font/`: Contiene las fuentes tipográficas personalizadas.
+- La carpeta `image/`: Alberga los recursos gráficos utilizados.
+- Los archivos `*.html`: Archivos principales de la aplicación web.
+- Los archivos `*.css`: Hojas de estilo para la presentación visual.
+- El archivo `README.md`: Documentación del proyecto (este archivo).
 
 ## Características del diseño
 
@@ -41,13 +41,23 @@ La página incluye un encabezado fijo con el logotipo de KARIO MEDIA y una barra
 - Posicionamiento absoluto para la mayoría de los elementos.
 - Efectos de diseño personalizados, como flechas para los selectores y el calendario.
 - Barra de navegación fija en la parte superior.
-- Uso de imágenes de fondo y logotipos de bancos autorizados.
+- Uso de imágenes de fondo y logotipos autorizados.
+
+## Pantallas Disponibles
+
+- **Computador 1920 x 1080 Pixeles*
+- **Iphone 14 Pro Max 430 x 932 Pixeles*
+- **Ipad Mini 768 x 1024 Pixeles*
 
 ## Instrucciones de uso
 
 1. Clona este repositorio o descarga los archivos en tu máquina local.
 2. Abre el archivo `index.html` en un navegador web compatible.
 
-## Créditos
+## Desarrolladores
 
-Este proyecto fue desarrollado por Jaime Enrique Barrera Sandoval y Wilmer Alexander Rojas Fuentes como parte del Proyecto en HTML y CSS.
+Este proyecto ha sido desarrollado por:
+- Jaime Enrique Barrera Sandoval
+- Wilmer Alexander Rojas Fuentes
+
+Como parte del Proyecto en HTML y CSS.
