@@ -34,8 +34,8 @@ body{
     background: white;
     width: 45vw;
     height: 28vw;
-    top: 18vw;
-    left: 29vw;
+    top: 15vw;
+    left: 27vw;
     border-radius: 3vw;
     opacity: 0;
     animation-name: pagina1;
@@ -87,7 +87,7 @@ body{
 }
 
 .karioLogo{
-    top: 25vw;
+    top: 20vw;
     position: absolute;
     width: 15vw;
 }
@@ -264,7 +264,7 @@ hr{
 
 .linea{
     position: absolute;
-    width: 100%;
+    width: 102%;
     height: 0.18vw;
     background: rgb(160, 160, 160);
     top: 5vw;
@@ -580,8 +580,7 @@ circle{
     .usuario1{
         width: 80vw;
         height: 90vw;
-        margin-left: -20vw;
-        margin-top: 20vw;
+       left: 30vw; 
         
     }
 

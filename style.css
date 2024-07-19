@@ -17,8 +17,8 @@ body{
 .logo{
     position:absolute;
     
-    margin-top: 25vw;
-    margin-left: 45vw;
+    margin-top: 16vw;
+    margin-left: 43vw;
     animation-name: kairo;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -37,37 +37,7 @@ body{
     100%{opacity: 1;} 
 }
 
-/*.contenedor1{
- animation: fadeOut 2s;
- animation-fill-mode: forwards;
-}
 
-.contenedor2{
-    opacity: 0;
-    animation: fadeIn 2s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-
-}
-
-.contenedor1:target{
-    animation: fadeOut 2s;
-}
-
-.contenedor2:target{
-    animation: fadeIn 2s;
-
-}
-
-@keyframes fadeOut{
-    from {opacity: 1;}
-    to {opacity: 0;}
-}
-
-@keyframes fadeIn{
-    from {opacity: 0;}
-    to {opacity: 1;}
-}*/
 
 
 .cuadroBlanco{
@@ -75,7 +45,8 @@ body{
     background-color: white;
     width: 45vw;
     height: 30vw;
-    margin-left: 30vw;
+    margin-left: 27vw;
+    top: -5vw;
     animation-name: cuadro;
     animation-delay: 3s;
     animation-duration: 1s;

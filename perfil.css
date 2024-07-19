@@ -285,8 +285,6 @@ hr {
         top: 20vw;
         overflow: hidden;
         font-size: 2vw;
-
-
     }
 
     hr {
@@ -310,13 +308,10 @@ hr {
         height: 24vw;
         width: 38vw;
         transition: 0.2s;
-
-
     }
 
     .barra {
         display: none;
-
     }
 
     .perfil2 {
@@ -331,18 +326,17 @@ hr {
         width: 100%;
         height: 15vw;
         background-color: white;
-        display: block;
+        display: flex;
         margin: none;
         position: fixed;
         z-index: 5;
-
     }
 
     .linea2 {
         background-color: #FC6F1E;
         height: 1.5vw;
         width: 101%;
-        position: absolute;
+        position: fixed;
         top: 15vw;
         
     }
