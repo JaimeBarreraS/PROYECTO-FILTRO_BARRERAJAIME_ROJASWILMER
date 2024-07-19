@@ -668,10 +668,10 @@ circle{
         border-radius: 2vw;
         height: 0vw;
         width: 3vw;
-        top: 14vw;
+        top: 15vw;
         right: 1vw;
         overflow: hidden;
-        font-size: 2vw;
+        font-size: 5vw;
         z-index: 1;
         font-weight: bold;
         font-family: Myriad_Pro_Regular;
@@ -679,10 +679,12 @@ circle{
 
     #per:checked ~ .menuPerfil {
         display: block;
+        width: 30vw;
+        height: 30vw;
     }
 
     .menuPerfil a{
-        font-size: 2vw;
+        font-size: 4vw;
         color: black;
         margin-left: 2vw;
         margin-top: 1vw;
@@ -1112,10 +1114,10 @@ circle{
         border-radius: 2vw;
         height: 0vw;
         width: 3vw;
-        top: 14vw;
+        top: 15vw;
         right: 1vw;
         overflow: hidden;
-        font-size: 2vw;
+        font-size: 5vw;
         z-index: 1;
         font-weight: bold;
         font-family: Myriad_Pro_Regular;
@@ -1123,10 +1125,12 @@ circle{
 
     #per:checked ~ .menuPerfil {
         display: block;
+        width: 30vw;
+        height: 30vw;
     }
 
     .menuPerfil a{
-        font-size: 2vw;
+        font-size: 4vw;
         color: black;
         margin-left: 2vw;
         margin-top: 1vw;
