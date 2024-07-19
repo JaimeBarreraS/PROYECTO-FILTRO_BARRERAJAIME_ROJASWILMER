@@ -338,6 +338,7 @@ option{
     left: 3.5vw;
     margin-top: 0.5vw;
 }
+
 @media only screen and (max-width: 768px){
     body {
         font-size: 14px;
@@ -354,9 +355,8 @@ option{
         height: 15vw;
         top: 0.1vw;
         background: white;
-        z-index: 1;
     }
-    #menu-toggle {
+    #menuHambur {
         display: none;
     }
 
@@ -398,7 +398,7 @@ option{
         font-weight: lighter;
     }
 
-    #menu-toggle:checked ~ .contenedor .barra {
+    #menuHambur:checked ~ .contenedor .barra {
         left: 0;
     }
     .linea{
@@ -407,7 +407,6 @@ option{
         top: 15vw;
         height: 3px;
         background: #FC6F1E;
-        z-index: 1;
     }
 
     .añadir-img{
@@ -504,7 +503,6 @@ option{
         left: 72vw;
         width: 4vw;
         height: 4vw;
-        z-index: 1;
     }
     .notificaciones{
         position:fixed;
@@ -512,7 +510,6 @@ option{
         left: 80vw;
         width: 4vw;
         height: 4vw;
-        z-index: 1;
     }
     .perfil {
         position: fixed;
@@ -556,229 +553,6 @@ option{
     }
     .karioBarra2{
         position: fixed;
-        display: block;
-        width: 7vw;
-        height: 7vw;
-        left: 48vw;
-        top: 4vw;
-        z-index: 1;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    body {
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        background-color: rgba(0, 0, 0, 0.893);
-        background-image: url(img/pexels-pixabay-159400.png);
-        background-size: 100%;
-        background-repeat: repeat;
-    }
-    .barra-blanca{
-        position: absolute;
-        width: 100%;
-        height: 15vw;
-        top: 0.1vw;
-        background: white;
-    }
-    #menu-toggle {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        font-size: 60px;
-        z-index: 1001;
-        cursor: pointer;
-        background: white;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
-
-    .contenedor {
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    .barra {
-        position: fixed;
-        top: 0;
-        left: -80%;
-        width: 80%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.893);
-        background-image: url(img/pexels-pixabay-159400.png);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding-top: 50px;
-        transition: 0.3s;
-        z-index: 1000;
-        overflow-y: auto;
-        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-        font-weight: lighter;
-    }
-
-    #menu-toggle:checked ~ .contenedor .barra {
-        left: 0;
-    }
-    .linea{
-        position: absolute;
-        width: 100%;
-        top: 15vw;
-        height: 3px;
-        background: #FC6F1E;
-    }
-
-    .añadir-img{
-        position:absolute;
-        top: 14vw;
-        left: 5vw;
-        width: 6vw;
-        height: 6vw;
-    }
-    .Refrescar-img{
-        position:absolute;
-        top: 25vw;
-        left: 5vw;
-        width: 6vw;
-        height: 6vw;
-    }
-    .Eliminar-img{
-        position:absolute;
-        top: 36vw;
-        left: 5vw;
-        width: 6vw;
-        height: 6vw;
-    }
-    .Reportar-img{
-        position:absolute;
-        top: 47vw;
-        left: 5vw;
-        width: 6vw;
-        height: 6vw;
-    }
-    .Ayuda-img{
-        position:absolute;
-        top: 57vw;
-        left: 5vw;
-        width: 6vw;
-        height: 6vw;
-    }
-    .añadir{
-        position:absolute;
-        top: 10.5vw;
-        left: 13vw;
-        width: 6vw;
-        height: 6vw;
-        font-size: 4vw;
-        color: white;
-    }
-    .Refrescar{
-        position:absolute;
-        top: 21.5vw;
-        left: 13vw;
-        width: 6vw;
-        height: 6vw;
-        font-size: 4vw;
-        color: white;
-    }
-    .Eliminar{
-        position:absolute;
-        top: 32.5vw;
-        left: 13vw;
-        width: 6vw;
-        height: 6vw;
-        font-size: 4vw;
-        color: white;
-    }
-    .Reportar{
-        position:absolute;
-        top: 43.5vw;
-        left: 13vw;
-        width: 6vw;
-        height: 6vw;
-        font-size: 4vw;
-        color: white;
-    }
-    .Ayuda{
-        position:absolute;
-        top: 54vw;
-        left: 13vw;
-        width: 6vw;
-        height: 6vw;
-        font-size: 4vw;
-        color: white;
-    }
-    .karioBarra{
-        position: absolute;
-        width: 30vw;
-        height: 30vw;
-        opacity: 50%;
-        top: 20vw;
-        left: 30vw;
-    }
-    .opciones{
-        position:absolute;
-        top: 5.5vw;
-        left: 72vw;
-        width: 4vw;
-        height: 4vw;
-    }
-    .notificaciones{
-        position:absolute;
-        top: 5.5vw;
-        left: 80vw;
-        width: 4vw;
-        height: 4vw;
-    }
-    .perfil {
-        position: fixed;
-        top: 10px;
-        right: 10px;
-        z-index: 1002;
-    }
-
-    .fotoPerfil {
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
-    }
-
-    .menuPerfil{
-        position: absolute;
-        background-color: lightgray;
-        background-position: 8vw 0.5vw ;
-        border-radius: 2vw;
-        height: 0vw;
-        width: 3vw;
-        top: 14vw;
-        right: 1vw;
-        overflow: hidden;
-        font-size: 2vw;
-        z-index: 1;
-        font-weight: bold;
-        font-family: Myriad_Pro_Regular;
-    }
-
-    #per:checked ~ .menuPerfil {
-        display: block;
-    }
-
-    .menuPerfil a{
-        font-size: 2vw;
-        color: black;
-        margin-left: 2vw;
-        margin-top: 1vw;
-        display: block;
-    }
-    .karioBarra2{
-        position: absolute;
         display: block;
         width: 7vw;
         height: 7vw;
@@ -836,7 +610,7 @@ option{
         border-radius: 2vw;
         width: 50vw;
         height: 4vw;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
         top: 11vw;
         left: 4vw;
         padding-left: 1vw;
@@ -851,7 +625,7 @@ option{
     }
     option{
         color: #000000;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
     }
     .ide::after {
         content: '';
@@ -873,19 +647,11 @@ option{
         border-radius: 2vw;
         width: 51.6vw;
         height: 4.8vw;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
         top: 23vw;
         left: 4vw;
         padding-left: 1vw;
         cursor: pointer;
-    }
-    .des-reporte{
-        position: absolute;
-        color: black;
-        font-size: 1.4vw;
-        font-family: Myriad_Pro_Light;
-        top: 10vw;
-        left: 6vw;
     }
     .reporte{
         position: absolute;
@@ -893,7 +659,7 @@ option{
         border-radius: 2vw;
         width: 60vw;
         height: 20vw;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
         top: 37vw;
         left: 4vw;
         padding-left: 1vw;
@@ -1222,7 +988,7 @@ option{
         border-radius: 2vw;
         width: 50vw;
         height: 4vw;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
         top: 11vw;
         left: 4vw;
         padding-left: 1vw;
@@ -1237,7 +1003,7 @@ option{
     }
     option{
         color: #000000;
-        font-size: 1.3vw;
+        font-size:2.3vw;
     }
     .ide::after {
         content: '';
@@ -1259,7 +1025,7 @@ option{
         border-radius: 2vw;
         width: 51.6vw;
         height: 4.8vw;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
         top: 23vw;
         left: 4vw;
         padding-left: 1vw;
@@ -1268,7 +1034,7 @@ option{
     .des-reporte{
         position: absolute;
         color: black;
-        font-size: 1.4vw;
+        font-size: 2.3vw;
         font-family: Myriad_Pro_Light;
         top: 10vw;
         left: 6vw;
@@ -1279,7 +1045,7 @@ option{
         border-radius: 2vw;
         width: 60vw;
         height: 20vw;
-        font-size: 1.3vw;
+        font-size: 2.5vw;
         top: 37vw;
         left: 4vw;
         padding-left: 1vw;

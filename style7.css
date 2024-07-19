@@ -490,15 +490,9 @@ circle{
         background: white;
         z-index: 1;
     }
-<<<<<<< HEAD
-    #menu-toggle {
-=======
-
     #menuHambur {
->>>>>>> 2186010282b3fd6af6d3f1b40cc5a6fab17aa2af
         display: none;
     }
-
     .menu-icon {
         display: block;
         position: fixed;

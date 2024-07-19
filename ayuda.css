@@ -319,7 +319,7 @@ hr{
         background: white;
         z-index: 1;
     }
-    #menu-toggle {
+    #menuHambur {
         display: none;
     }
 
@@ -361,7 +361,7 @@ hr{
         font-weight: lighter;
     }
 
-    #menu-toggle:checked ~ .contenedor .barra {
+    #menuHambur:checked ~ .contenedor .barra {
         left: 0;
     }
     .linea{
