@@ -1,22 +1,23 @@
-body{
+body {
     background-color: black;
     background-image: url(img/pexels-pixabay-159400.png);
     background-size: 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     margin: auto;
 }
 
-@font-face{
+@font-face {
     font-family: Myriad_Pro_Light;
     src: url(/font/MyriadPro-Light.otf);
 }
-@font-face{
+
+@font-face {
     font-family: Myriad_Pro_Regular;
     src: url(/font/MYRIADPRO-REGULAR.OTF);
 }
 
 
-.barra{
+.barra {
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -25,16 +26,17 @@ body{
     height: 5vw;
 }
 
-.barra2{
+.barra2 {
     display: none;
 }
-.linea{
+
+.linea {
     width: 100%;
     height: 0.2vw;
     background-color: #FC6F1E;
 }
 
-.barra a{
+.barra a {
     font-family: Myriad_Pro_Regular;
     text-decoration: none;
     color: black;
@@ -44,29 +46,34 @@ body{
     align-items: center;
 }
 
-.a, .r, .e, .r2, .a2{
+.a,
+.r,
+.e,
+.r2,
+.a2 {
     width: 2vw;
     margin-right: 1vw;
 }
 
-.perfil{
-   display: flex;  
-  
-   
-   
-}
- /*inicio menu*/
+.perfil {
+    display: flex;
 
-#per{
+
+
+}
+
+/*inicio menu*/
+
+#per {
     display: none;
-    
+
 }
 
-.menuPerfil{
+.menuPerfil {
     position: absolute;
     background-color: lightgray;
-    
-    background-position: 8vw 0.5vw ;
+
+    background-position: 8vw 0.5vw;
     border-radius: 2vw;
     height: 0vw;
     width: 3vw;
@@ -74,14 +81,16 @@ body{
     margin-left: -5vw;
     overflow: hidden;
     font-size: 2vw;
-    
+
 }
-hr{
+
+hr {
     margin-left: 2vw;
     margin-right: 2vw;
 }
 
-.menuPerfil a{
+.menuPerfil a {
+    font-family: Myriad_Pro_Regular;
     font-size: 2vw;
     color: black;
     margin-left: 2vw;
@@ -91,36 +100,37 @@ hr{
 
 
 
-#per:checked ~ .menuPerfil{
+#per:checked~.menuPerfil {
     height: 14vw;
     width: 15vw;
     transition: 0.2s;
-    
-    
+
+
 }
+
 /*final menu*/
 
-.karioBarra{
+.karioBarra {
     width: 2.5vw;
 }
 
-.opciones{
+.opciones {
     width: 1.5vw;
     margin-right: 1.5vw;
 }
 
-.notificaciones{
+.notificaciones {
     width: 1.5vw;
     margin-right: 1.5vw;
 }
 
-.fotoPerfil{
+.fotoPerfil {
     width: 4vw;
     margin-top: 0.2vw;
-    
+
 }
 
-.karioLogo img{
+.karioLogo img {
     margin-top: 10vw;
     opacity: 50%;
     width: 10vw;
@@ -129,13 +139,13 @@ hr{
 
 }
 
-.caja{
+.caja {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 2vw;
 }
 
-.caja p{
+.caja p {
     font-family: Myriad_Pro_Regular;
     font-size: 2vw;
     margin-bottom: 0.5vw;
@@ -143,12 +153,12 @@ hr{
     color: white;
 }
 
-.caja img{
+.caja img {
     width: 20vw;
-    
+
 }
 
-.karioLogo{
+.karioLogo {
     position: absolute;
     margin-left: 45vw;
     z-index: -1;
@@ -156,7 +166,7 @@ hr{
     opacity: 70%;
 }
 
-.caja input{
+.caja input {
     border-radius: 1vw;
     width: 20vw;
     height: 2.5vw;
@@ -164,18 +174,19 @@ hr{
     padding-left: 2vw;
     margin-bottom: 3vw;
 }
-.derecho{
+
+.derecho {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.botones{
+.botones {
     display: flex;
     justify-content: space-evenly;
 }
 
-.botones button{
+.botones button {
     background-color: #FC6F1E;
     border-radius: 2vw;
     width: 10vw;
@@ -183,7 +194,7 @@ hr{
     border: none;
 }
 
-.botones a{
+.botones a {
     color: white;
     text-decoration: none;
     font-size: 1vw;
@@ -209,7 +220,7 @@ hr{
 
     }
 
-    .caja{
+    .caja {
         margin-top: 10vw;
     }
 
@@ -284,6 +295,7 @@ hr{
     }
 
     .menuPerfil2 a {
+        font-family: Myriad_Pro_Regular;
         font-size: 5vw;
         color: black;
         margin-left: 5vw;
@@ -301,10 +313,12 @@ hr{
 
 
     }
+
     .barra {
         display: none;
 
     }
+
     .perfil2 {
         display: flex;
         justify-content: end;
@@ -313,16 +327,24 @@ hr{
 
 
     .barra2 {
-        margin-top: 0.1vw;
+        margin-top: -0.2vw;
         width: 100%;
         height: 15vw;
         background-color: white;
         display: block;
-        border: 1px solid red;
         margin: none;
         position: fixed;
         z-index: 5;
 
+    }
+
+    .linea2 {
+        background-color: #FC6F1E;
+        height: 1.5vw;
+        width: 101%;
+        position: absolute;
+        top: 15vw;
+        
     }
 
     #menuHambur {
@@ -347,6 +369,7 @@ hr{
     }
 
     .bar a {
+        font-family: Myriad_Pro_Regular;
         color: white;
         text-decoration: none;
         font-size: 5vw;
@@ -378,7 +401,7 @@ hr{
 
     }
 
-    
+
     /*fin menu*/
 
 
@@ -386,15 +409,15 @@ hr{
         flex-direction: column;
         display: flex;
         align-items: center;
-    
+
     }
-    
-    .caja p{
+
+    .caja p {
         font-size: 8vw;
-        
+
     }
-    
-    .caja input{
+
+    .caja input {
         width: 60vw;
         height: 10vw;
         display: flex;
@@ -402,40 +425,24 @@ hr{
         border: 0.5vw solid #FC6F1E;
         border-radius: 3vw;
     }
-    
-    .derecho{
+
+    .derecho {
         display: none;
     }
-    
-    
+
+
     .botones button {
         width: 25vw;
         height: 10vw;
         margin-top: 5vw;
         margin-bottom: 5vw;
         border-radius: 5vw;
-        
+
     }
-    
-    .botones a{
+
+    .botones a {
         font-family: Myriad_Pro_Regular;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
-    
-
-
-
-
-
-
-
-
-   
-
 
 }
-
-
-
-
-

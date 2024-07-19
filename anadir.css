@@ -366,7 +366,7 @@ button {
 
     }
     .caja{
-        margin-top: 10vw;
+        margin-top: 20vw;
     }
 
     .karioBarra {
@@ -440,6 +440,7 @@ button {
     }
 
     .menuPerfil2 a {
+        font-family: Myriad_Pro_Regular;
         font-size: 5vw;
         color: black;
         margin-left: 5vw;
@@ -492,17 +493,27 @@ button {
 
 
     .barra2 {
-        margin-top: 0.1vw;
+        margin-top: -0.2vw;
         width: 100%;
         height: 15vw;
         background-color: white;
         display: block;
-        border: 1px solid red;
         margin: none;
         position: fixed;
         z-index: 5;
 
     }
+
+    .linea2{
+        background-color: #FC6F1E;
+        height: 1vw;
+        width: 100%;
+        top: 15vw;
+        position: fixed;
+
+        
+    }
+
 
     #menuHambur {
         display: none;
@@ -526,6 +537,7 @@ button {
     }
 
     .bar a {
+        font-family: Myriad_Pro_Regular;
         color: white;
         text-decoration: none;
         font-size: 5vw;
@@ -568,6 +580,7 @@ button {
     }
 
     .barra a img {
+        
         width: 3vw;
         margin-bottom: 1vw;
         margin-top: 1vw;
